@@ -7,6 +7,7 @@
 //
 
 #import "SPONotesAPIEngine.h"
+#import <AFNetworkActivityIndicatorManager.h>
 #import "SPOUser.h"
 #import "SPONote.h"
 
@@ -18,6 +19,9 @@ static NSString * const SPONotesAPIEngineBaseURL = @"http://simplenotes.qbikode.
     static SPONotesAPIEngine *_sharedInstance = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
+        // Network activity indicator manager setup
+        [[AFNetworkActivityIndicatorManager sharedManager] setEnabled:YES];
+        
         // Session configuration setup
         NSURLSessionConfiguration *sessionConfiguration = [NSURLSessionConfiguration defaultSessionConfiguration];
         sessionConfiguration.HTTPAdditionalHeaders = @{
@@ -44,7 +48,10 @@ static NSString * const SPONotesAPIEngineBaseURL = @"http://simplenotes.qbikode.
     self = [super initWithBaseURL:url sessionConfiguration:configuration];
     if (!self) return nil;
     
-    // Configuraciones adicionales de la sesión
+    // Session additional settings
+    
+    // Reachability setup
+    [self.reachabilityManager startMonitoring];
     
     return self;
 }

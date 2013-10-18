@@ -17,4 +17,6 @@
 @property (copy, nonatomic) NSString *name;
 @property (copy, nonatomic) NSString *lastname;
 
+- (NSString *)completeName;
+
 @end

@@ -21,4 +21,9 @@
              };
 }
 
+- (NSString *)completeName
+{
+    return [NSString stringWithFormat:@"%@ %@", self.name, self.lastname];
+}
+
 @end

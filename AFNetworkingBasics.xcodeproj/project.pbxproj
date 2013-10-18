@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		05B6A6BC2A3F49D1935CADAA /* libPods-AFNetworkingBasics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39CB7DD11D734CCA970B1412 /* libPods-AFNetworkingBasics.a */; };
 		C78EB95A18111CF1006FF68A /* SPOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C78EB95918111CF1006FF68A /* SPOAppDelegate.m */; };
+		C78EB95F18111EC2006FF68A /* SPONote.m in Sources */ = {isa = PBXBuildFile; fileRef = C78EB95E18111EC2006FF68A /* SPONote.m */; };
+		C78EB96218111ECA006FF68A /* SPOUser.m in Sources */ = {isa = PBXBuildFile; fileRef = C78EB96118111ECA006FF68A /* SPOUser.m */; };
+		C78EB96418111EF2006FF68A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C78EB96318111EF2006FF68A /* MainStoryboard.storyboard */; };
+		C78EB96718111F44006FF68A /* SPONotesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C78EB96618111F44006FF68A /* SPONotesViewController.m */; };
+		C78EB96C18111FAF006FF68A /* SPONotesAPIEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = C78EB96B18111FAF006FF68A /* SPONotesAPIEngine.m */; };
 		C7C0451E18111B1200DF23EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C0451D18111B1200DF23EB /* Foundation.framework */; };
 		C7C0452018111B1200DF23EB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C0451F18111B1200DF23EB /* CoreGraphics.framework */; };
 		C7C0452218111B1200DF23EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C0452118111B1200DF23EB /* UIKit.framework */; };
@@ -37,6 +42,15 @@
 		39CB7DD11D734CCA970B1412 /* libPods-AFNetworkingBasics.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFNetworkingBasics.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C78EB95818111CF1006FF68A /* SPOAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPOAppDelegate.h; sourceTree = "<group>"; };
 		C78EB95918111CF1006FF68A /* SPOAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPOAppDelegate.m; sourceTree = "<group>"; };
+		C78EB95D18111EC2006FF68A /* SPONote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPONote.h; sourceTree = "<group>"; };
+		C78EB95E18111EC2006FF68A /* SPONote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPONote.m; sourceTree = "<group>"; };
+		C78EB96018111ECA006FF68A /* SPOUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPOUser.h; sourceTree = "<group>"; };
+		C78EB96118111ECA006FF68A /* SPOUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPOUser.m; sourceTree = "<group>"; };
+		C78EB96318111EF2006FF68A /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C78EB96518111F44006FF68A /* SPONotesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SPONotesViewController.h; path = Notes/SPONotesViewController.h; sourceTree = "<group>"; };
+		C78EB96618111F44006FF68A /* SPONotesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SPONotesViewController.m; path = Notes/SPONotesViewController.m; sourceTree = "<group>"; };
+		C78EB96A18111FAF006FF68A /* SPONotesAPIEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPONotesAPIEngine.h; sourceTree = "<group>"; };
+		C78EB96B18111FAF006FF68A /* SPONotesAPIEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPONotesAPIEngine.m; sourceTree = "<group>"; };
 		C7C0451A18111B1200DF23EB /* AFNetworkingBasics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFNetworkingBasics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7C0451D18111B1200DF23EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C7C0451F18111B1200DF23EB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -101,6 +115,7 @@
 		C78EB95118111CCD006FF68A /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				C78EB96818111F49006FF68A /* Notes */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -108,6 +123,9 @@
 		C78EB95218111CCD006FF68A /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				C78EB96918111F91006FF68A /* Networking */,
+				C78EB95B18111EB7006FF68A /* Notes */,
+				C78EB95C18111EB7006FF68A /* Users */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -146,8 +164,45 @@
 		C78EB95718111CD9006FF68A /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				C78EB96318111EF2006FF68A /* MainStoryboard.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		C78EB95B18111EB7006FF68A /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+				C78EB95D18111EC2006FF68A /* SPONote.h */,
+				C78EB95E18111EC2006FF68A /* SPONote.m */,
+			);
+			path = Notes;
+			sourceTree = "<group>";
+		};
+		C78EB95C18111EB7006FF68A /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				C78EB96018111ECA006FF68A /* SPOUser.h */,
+				C78EB96118111ECA006FF68A /* SPOUser.m */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		C78EB96818111F49006FF68A /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+				C78EB96518111F44006FF68A /* SPONotesViewController.h */,
+				C78EB96618111F44006FF68A /* SPONotesViewController.m */,
+			);
+			name = Notes;
+			sourceTree = "<group>";
+		};
+		C78EB96918111F91006FF68A /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				C78EB96A18111FAF006FF68A /* SPONotesAPIEngine.h */,
+				C78EB96B18111FAF006FF68A /* SPONotesAPIEngine.m */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 		C7C0451118111B1100DF23EB = {
@@ -300,6 +355,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C78EB96418111EF2006FF68A /* MainStoryboard.storyboard in Resources */,
 				C7C0452818111B1200DF23EB /* InfoPlist.strings in Resources */,
 				C7C0453018111B1200DF23EB /* Images.xcassets in Resources */,
 			);
@@ -353,6 +409,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C78EB96718111F44006FF68A /* SPONotesViewController.m in Sources */,
+				C78EB95F18111EC2006FF68A /* SPONote.m in Sources */,
+				C78EB96218111ECA006FF68A /* SPOUser.m in Sources */,
+				C78EB96C18111FAF006FF68A /* SPONotesAPIEngine.m in Sources */,
 				C7C0452A18111B1200DF23EB /* main.m in Sources */,
 				C78EB95A18111CF1006FF68A /* SPOAppDelegate.m in Sources */,
 			);

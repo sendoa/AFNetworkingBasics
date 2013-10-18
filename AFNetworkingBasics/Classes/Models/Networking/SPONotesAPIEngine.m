@@ -53,6 +53,11 @@ static NSString * const SPONotesAPIEngineBaseURL = @"http://simplenotes.qbikode.
     // Reachability setup
     [self.reachabilityManager startMonitoring];
     
+    // SSL Pinning
+//    AFSecurityPolicy *securityPolicy = [[AFSecurityPolicy alloc] init];
+//    securityPolicy.SSLPinningMode = AFSSLPinningModePublicKey;
+//    self.securityPolicy = securityPolicy;
+    
     return self;
 }
 

@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05B6A6BC2A3F49D1935CADAA /* libPods-AFNetworkingBasics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39CB7DD11D734CCA970B1412 /* libPods-AFNetworkingBasics.a */; };
+		C78EB95A18111CF1006FF68A /* SPOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C78EB95918111CF1006FF68A /* SPOAppDelegate.m */; };
+		C78EB95F18111EC2006FF68A /* SPONote.m in Sources */ = {isa = PBXBuildFile; fileRef = C78EB95E18111EC2006FF68A /* SPONote.m */; };
+		C78EB96218111ECA006FF68A /* SPOUser.m in Sources */ = {isa = PBXBuildFile; fileRef = C78EB96118111ECA006FF68A /* SPOUser.m */; };
+		C78EB96418111EF2006FF68A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C78EB96318111EF2006FF68A /* MainStoryboard.storyboard */; };
+		C78EB96718111F44006FF68A /* SPONotesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C78EB96618111F44006FF68A /* SPONotesViewController.m */; };
+		C78EB96C18111FAF006FF68A /* SPONotesAPIEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = C78EB96B18111FAF006FF68A /* SPONotesAPIEngine.m */; };
+		C78EB97218115618006FF68A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C78EB97118115618006FF68A /* Images.xcassets */; };
 		C7C0451E18111B1200DF23EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C0451D18111B1200DF23EB /* Foundation.framework */; };
 		C7C0452018111B1200DF23EB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C0451F18111B1200DF23EB /* CoreGraphics.framework */; };
 		C7C0452218111B1200DF23EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C0452118111B1200DF23EB /* UIKit.framework */; };
 		C7C0452818111B1200DF23EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7C0452618111B1200DF23EB /* InfoPlist.strings */; };
 		C7C0452A18111B1200DF23EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C0452918111B1200DF23EB /* main.m */; };
-		C7C0452E18111B1200DF23EB /* SPOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C0452D18111B1200DF23EB /* SPOAppDelegate.m */; };
-		C7C0453018111B1200DF23EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7C0452F18111B1200DF23EB /* Images.xcassets */; };
 		C7C0453718111B1200DF23EB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C0453618111B1200DF23EB /* XCTest.framework */; };
 		C7C0453818111B1200DF23EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C0451D18111B1200DF23EB /* Foundation.framework */; };
 		C7C0453918111B1200DF23EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C0452118111B1200DF23EB /* UIKit.framework */; };
@@ -32,6 +38,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A0DBD7218624374B31FE076 /* Pods-AFNetworkingBasics.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworkingBasics.xcconfig"; path = "Pods/Pods-AFNetworkingBasics.xcconfig"; sourceTree = "<group>"; };
+		39CB7DD11D734CCA970B1412 /* libPods-AFNetworkingBasics.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFNetworkingBasics.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C78EB95818111CF1006FF68A /* SPOAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPOAppDelegate.h; sourceTree = "<group>"; };
+		C78EB95918111CF1006FF68A /* SPOAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPOAppDelegate.m; sourceTree = "<group>"; };
+		C78EB95D18111EC2006FF68A /* SPONote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPONote.h; sourceTree = "<group>"; };
+		C78EB95E18111EC2006FF68A /* SPONote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPONote.m; sourceTree = "<group>"; };
+		C78EB96018111ECA006FF68A /* SPOUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPOUser.h; sourceTree = "<group>"; };
+		C78EB96118111ECA006FF68A /* SPOUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPOUser.m; sourceTree = "<group>"; };
+		C78EB96318111EF2006FF68A /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C78EB96518111F44006FF68A /* SPONotesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SPONotesViewController.h; path = Notes/SPONotesViewController.h; sourceTree = "<group>"; };
+		C78EB96618111F44006FF68A /* SPONotesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SPONotesViewController.m; path = Notes/SPONotesViewController.m; sourceTree = "<group>"; };
+		C78EB96A18111FAF006FF68A /* SPONotesAPIEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPONotesAPIEngine.h; sourceTree = "<group>"; };
+		C78EB96B18111FAF006FF68A /* SPONotesAPIEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPONotesAPIEngine.m; sourceTree = "<group>"; };
+		C78EB97118115618006FF68A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C7C0451A18111B1200DF23EB /* AFNetworkingBasics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFNetworkingBasics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7C0451D18111B1200DF23EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C7C0451F18111B1200DF23EB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -40,9 +60,6 @@
 		C7C0452718111B1200DF23EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C7C0452918111B1200DF23EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C7C0452B18111B1200DF23EB /* AFNetworkingBasics-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AFNetworkingBasics-Prefix.pch"; sourceTree = "<group>"; };
-		C7C0452C18111B1200DF23EB /* SPOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPOAppDelegate.h; sourceTree = "<group>"; };
-		C7C0452D18111B1200DF23EB /* SPOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPOAppDelegate.m; sourceTree = "<group>"; };
-		C7C0452F18111B1200DF23EB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C7C0453518111B1200DF23EB /* AFNetworkingBasicsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AFNetworkingBasicsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7C0453618111B1200DF23EB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C7C0453E18111B1200DF23EB /* AFNetworkingBasicsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AFNetworkingBasicsTests-Info.plist"; sourceTree = "<group>"; };
@@ -58,6 +75,7 @@
 				C7C0452018111B1200DF23EB /* CoreGraphics.framework in Frameworks */,
 				C7C0452218111B1200DF23EB /* UIKit.framework in Frameworks */,
 				C7C0451E18111B1200DF23EB /* Foundation.framework in Frameworks */,
+				05B6A6BC2A3F49D1935CADAA /* libPods-AFNetworkingBasics.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +92,120 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C78EB94F18111CCD006FF68A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C78EB95018111CCD006FF68A /* App Delegate */,
+				C78EB95118111CCD006FF68A /* Controllers */,
+				C78EB95218111CCD006FF68A /* Models */,
+				C78EB95318111CCD006FF68A /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C78EB95018111CCD006FF68A /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				C78EB95818111CF1006FF68A /* SPOAppDelegate.h */,
+				C78EB95918111CF1006FF68A /* SPOAppDelegate.m */,
+			);
+			path = "App Delegate";
+			sourceTree = "<group>";
+		};
+		C78EB95118111CCD006FF68A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C78EB96818111F49006FF68A /* Notes */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C78EB95218111CCD006FF68A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C78EB96918111F91006FF68A /* Networking */,
+				C78EB95B18111EB7006FF68A /* Notes */,
+				C78EB95C18111EB7006FF68A /* Users */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C78EB95318111CCD006FF68A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C78EB95418111CD9006FF68A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C78EB95518111CD9006FF68A /* Images */,
+				C78EB95618111CD9006FF68A /* Others */,
+				C78EB95718111CD9006FF68A /* Storyboards */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C78EB95518111CD9006FF68A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C78EB97118115618006FF68A /* Images.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		C78EB95618111CD9006FF68A /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		C78EB95718111CD9006FF68A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C78EB96318111EF2006FF68A /* MainStoryboard.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		C78EB95B18111EB7006FF68A /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+				C78EB95D18111EC2006FF68A /* SPONote.h */,
+				C78EB95E18111EC2006FF68A /* SPONote.m */,
+			);
+			path = Notes;
+			sourceTree = "<group>";
+		};
+		C78EB95C18111EB7006FF68A /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				C78EB96018111ECA006FF68A /* SPOUser.h */,
+				C78EB96118111ECA006FF68A /* SPOUser.m */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		C78EB96818111F49006FF68A /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+				C78EB96518111F44006FF68A /* SPONotesViewController.h */,
+				C78EB96618111F44006FF68A /* SPONotesViewController.m */,
+			);
+			name = Notes;
+			sourceTree = "<group>";
+		};
+		C78EB96918111F91006FF68A /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				C78EB96A18111FAF006FF68A /* SPONotesAPIEngine.h */,
+				C78EB96B18111FAF006FF68A /* SPONotesAPIEngine.m */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 		C7C0451118111B1100DF23EB = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +213,7 @@
 				C7C0453C18111B1200DF23EB /* AFNetworkingBasicsTests */,
 				C7C0451C18111B1200DF23EB /* Frameworks */,
 				C7C0451B18111B1200DF23EB /* Products */,
+				1A0DBD7218624374B31FE076 /* Pods-AFNetworkingBasics.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +233,7 @@
 				C7C0451F18111B1200DF23EB /* CoreGraphics.framework */,
 				C7C0452118111B1200DF23EB /* UIKit.framework */,
 				C7C0453618111B1200DF23EB /* XCTest.framework */,
+				39CB7DD11D734CCA970B1412 /* libPods-AFNetworkingBasics.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -107,9 +241,8 @@
 		C7C0452318111B1200DF23EB /* AFNetworkingBasics */ = {
 			isa = PBXGroup;
 			children = (
-				C7C0452C18111B1200DF23EB /* SPOAppDelegate.h */,
-				C7C0452D18111B1200DF23EB /* SPOAppDelegate.m */,
-				C7C0452F18111B1200DF23EB /* Images.xcassets */,
+				C78EB94F18111CCD006FF68A /* Classes */,
+				C78EB95418111CD9006FF68A /* Resources */,
 				C7C0452418111B1200DF23EB /* Supporting Files */,
 			);
 			path = AFNetworkingBasics;
@@ -151,9 +284,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C7C0454618111B1200DF23EB /* Build configuration list for PBXNativeTarget "AFNetworkingBasics" */;
 			buildPhases = (
+				20E56236E48D483BA3FD4002 /* Check Pods Manifest.lock */,
 				C7C0451618111B1200DF23EB /* Sources */,
 				C7C0451718111B1200DF23EB /* Frameworks */,
 				C7C0451818111B1200DF23EB /* Resources */,
+				291156B7B34D432E9C48616E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -220,8 +355,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C78EB96418111EF2006FF68A /* MainStoryboard.storyboard in Resources */,
+				C78EB97218115618006FF68A /* Images.xcassets in Resources */,
 				C7C0452818111B1200DF23EB /* InfoPlist.strings in Resources */,
-				C7C0453018111B1200DF23EB /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,13 +371,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		20E56236E48D483BA3FD4002 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		291156B7B34D432E9C48616E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-AFNetworkingBasics-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C7C0451618111B1200DF23EB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C78EB96718111F44006FF68A /* SPONotesViewController.m in Sources */,
+				C78EB95F18111EC2006FF68A /* SPONote.m in Sources */,
+				C78EB96218111ECA006FF68A /* SPOUser.m in Sources */,
+				C78EB96C18111FAF006FF68A /* SPONotesAPIEngine.m in Sources */,
 				C7C0452A18111B1200DF23EB /* main.m in Sources */,
-				C7C0452E18111B1200DF23EB /* SPOAppDelegate.m in Sources */,
+				C78EB95A18111CF1006FF68A /* SPOAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,26 +530,42 @@
 		};
 		C7C0454718111B1200DF23EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A0DBD7218624374B31FE076 /* Pods-AFNetworkingBasics.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_STATIC_ANALYZER_MODE = deep;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AFNetworkingBasics/AFNetworkingBasics-Prefix.pch";
 				INFOPLIST_FILE = "AFNetworkingBasics/AFNetworkingBasics-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Wno-unused-parameter",
+				);
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		C7C0454818111B1200DF23EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A0DBD7218624374B31FE076 /* Pods-AFNetworkingBasics.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_STATIC_ANALYZER_MODE = deep;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AFNetworkingBasics/AFNetworkingBasics-Prefix.pch";
 				INFOPLIST_FILE = "AFNetworkingBasics/AFNetworkingBasics-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Wno-unused-parameter",
+				);
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -442,6 +631,7 @@
 				C7C0454818111B1200DF23EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7C0454918111B1200DF23EB /* Build configuration list for PBXNativeTarget "AFNetworkingBasicsTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +640,7 @@
 				C7C0454B18111B1200DF23EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
